@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Global Website Theme - Royal Navy & True Gold */
+  --color-primary: #1e3a8a;   
+  --color-secondary: #eab308; 
+  --color-accent: #f0f9ff;    
+  --color-surface: #ffffff;   
+  --color-text-main: #334155; 
+
+  /* Product-Specific Identity Colors */
+  --color-gir-main: #0bb824; 
+  --color-gir-bg: #f2fcf5;   /* FIXED: Changed from white to a light green tint */
+
+  --color-desi-main: #d97843; 
+  --color-desi-bg: #f5dfd2;   
+
+  --color-buffalo-main: #2762c9; 
+  --color-buffalo-bg: #f0f5ff;   
+}
+
+@layer base {
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-text-main);
+  }
+}
