@@ -6,7 +6,7 @@ import { usePDF } from '@react-pdf/renderer';
 import CatalogPDF from '../components/pdf/CatalogPDF';
 
 // Process Image
-import ProcessImage from "../assets/Process.PNG";
+import ProcessImage from "../assets/Process.png";
 
 // Imports for "Why Us" badges
 import BadgeNatural from "../assets/badges/100-natural.png";
