@@ -22,7 +22,7 @@ import Blogs from './pages/Blogs'; // <-- Added Import
 export default function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <ScrollToTop /> 
         
         <div className="flex flex-col min-h-screen bg-accent font-sans relative">
